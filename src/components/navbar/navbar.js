@@ -1,5 +1,14 @@
 import React from "react"
-import { Nav, NavbarContainer, NavLogo } from "./NavbarElements"
+import { FaBars } from "react-icons/fa"
+import {
+  Nav,
+  NavbarContainer,
+  NavLogo,
+  MobileIcon,
+  NavMenu,
+  NavItem,
+  NavLinks,
+} from "./NavbarElements"
 import { Link } from "gatsby"
 
 const Navbar = () => {
@@ -8,18 +17,20 @@ const Navbar = () => {
       <Nav>
         <NavbarContainer>
           <NavLogo>
-            <Link to="/">dolla</Link>
+            <div>
+              <Link to="/">dolla</Link>
+            </div>
           </NavLogo>
-          {/* <MobileIcon>
+          <MobileIcon>
             <FaBars />
-          </MobileIcon> */}
-          {/* <NavMenu>
+          </MobileIcon>
+          <NavMenu>
             <NavItem>
               <NavLinks>
                 <Link to="about">About</Link>
               </NavLinks>
             </NavItem>
-          </NavMenu> */}
+          </NavMenu>
         </NavbarContainer>
       </Nav>
     </>

@@ -1,5 +1,6 @@
 module.exports = {
   plugins: [
+    `gatsby-plugin-smoothscroll`,
     {
       resolve: `babel-plugin-styled-components`,
       options: {
