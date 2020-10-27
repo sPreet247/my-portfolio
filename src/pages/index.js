@@ -1,7 +1,11 @@
 import React from "react"
-import Navbar from "../components/navbar/navbar"
+import Home from "../pages/home"
 
 const IndexPage = () => {
-  return <Navbar />
+  return (
+    <>
+      <Home />
+    </>
+  )
 }
 export default IndexPage
