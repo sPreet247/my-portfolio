@@ -69,3 +69,5 @@ yarn-error.log
 .yarn-integrity
 
 *.mp4
+
+src\videos
